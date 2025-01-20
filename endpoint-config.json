@@ -1,0 +1,13 @@
+{
+    "name": "modelo-previsao-endpoint",
+    "scoringUri": "https://<seu-endpoint>.azurewebsites.net/score",
+    "key": "sua-chave-de-acesso",
+    "swaggerUri": "https://<seu-endpoint>.azurewebsites.net/swagger.json",
+    "description": "Endpoint para inferência do modelo de previsão",
+    "computeType": "ACI",
+    "environment": {
+      "dependencies": ["numpy", "pandas", "scikit-learn"],
+      "pythonVersion": "3.8"
+    }
+  }
+  

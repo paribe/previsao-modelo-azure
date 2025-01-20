@@ -1,0 +1,11 @@
+name: modelo-previsao-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - azureml-defaults
