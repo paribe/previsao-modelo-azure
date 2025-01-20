@@ -143,7 +143,8 @@ def run(data):
 ### **3. Arquivo `environment.yml`**
 Este arquivo define as dependências do ambiente Docker para a implantação do modelo.
 
-```yaml
+```
+yaml
 name: modelo-previsao-env
 channels:
   - defaults
