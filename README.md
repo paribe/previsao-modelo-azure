@@ -70,9 +70,9 @@ Faça o commit e o push das alterações para o repositório no GitHub.
 Passo 6: Compartilhar o Link
 Copie o link do repositório e envie conforme instruído no botão "Entregar Projeto".
 Exemplo de Estrutura do Repositório:
-plaintext
-Copiar
-Editar
+
+```
+
 previsao-modelo-azure/
 │
 ├── README.md           # Documentação do processo
@@ -80,6 +80,7 @@ previsao-modelo-azure/
 ├── score.py            # (Opcional) Script de inferência
 └── environment.yml     # (Opcional) Ambiente do Docker para a implantação
 
+```
 
 Aqui estão exemplos de como os arquivos `endpoint-config.json`, `score.py` e `environment.yml` podem ser estruturados:
 
