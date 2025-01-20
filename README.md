@@ -1,3 +1,21 @@
+# Modelo de Previsão com Azure Machine Learning
+
+Este projeto demonstra o desenvolvimento e a implantação de um modelo de previsão utilizando o Azure Machine Learning. O objetivo é criar um ponto de extremidade configurado para realizar inferências em tempo real e disponibilizá-lo como parte de um portfólio profissional.
+
+Descrição do Projeto
+O projeto inclui as etapas de:
+
+Preparação e pré-processamento dos dados.
+Treinamento do modelo de aprendizado de máquina.
+Registro do modelo no Azure ML.
+Configuração e implantação de um endpoint para inferências em tempo real.
+Documentação do processo e disponibilização dos arquivos necessários no repositório.
+Arquivos no Repositório
+README.md: Documentação detalhada do projeto e do passo a passo.
+endpoint-config.json: Configuração do ponto de extremidade do modelo.
+score.py: Script usado para processar as requisições enviadas ao endpoint.
+environment.yml: Definição do ambiente de execução com as dependências necessárias.
+
 Passo 1: Criar um novo repositório no GitHub
 Acesse o GitHub e crie um novo repositório com um nome que reflita o objetivo do projeto, como previsao-modelo-azure ou algo similar.
 Inicialize o repositório com um arquivo README.md.
