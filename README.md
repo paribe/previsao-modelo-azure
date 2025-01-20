@@ -164,4 +164,3 @@ dependencies:
 2. O **`score.py`** lida com o processamento de entrada e saída no endpoint.
 3. O **`environment.yml`** garante que todas as dependências estejam instaladas no ambiente em que o endpoint será executado.
 
-Se precisar de ajustes específicos para o seu caso de uso, me avise! 😊
